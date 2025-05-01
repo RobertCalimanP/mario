@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario Bros</title>
+
+
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="escomderform()"></div>
+
+    <div class="header">
+        <img src="img/icon.png" alt="logo mario">
+        <a>Home</a>
+        <a>Fale Conosco</a>
+        <a>Nossos Servicos</a>
+
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="img/logo (1).png" alt=" logo do Mario Bros" class="logo-mario">
+            <p>Encanadores Mario & Luid - Resolvendo Seus Problemas Com Estilo!</p>
+            <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+
+            <button onclick="mostrarform()">ENTRE EM CONTATO</button>
+
+        </div>
+
+        <div>
+            <img src="img/mario.png" class="mario-lugi">
+        </div>
+
+
+    </div>
+    <div class="caixa-video">
+        <video src="img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+
+    <a href="https://wa.me/5511998865656?text=quero%20falar%20com%20os%20irmaos%20mario" class="link-whatsap">
+        <img src="img/whatsapp.png" alt="link para whatsapp">
+
+    </a>
+
+
+    <form class="formulario-fale-conosco" 
+          action="https://formcarry.com/s/SlyQtK91VP6" 
+          method="POST"
+          enctype="multipart/form-data">
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Seu telfone" type="tel" name="telefone">
+        <textarea placeholder="digite seu problema aqui..." name="duvida"></textarea>
+        <button type="submit">Pedir orcamento</button>
+    </form>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
